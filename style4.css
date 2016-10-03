@@ -1,0 +1,62 @@
+
+
+.all{
+  width: 110%;
+  height: 100%;
+  position: absolute;
+}
+
+.position{
+  position: relative;
+  float: left;
+  width: 70px;
+  height: 110px;
+}
+
+.top{
+  position: relative;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 110px solid red; 
+  float: right;
+  opacity: .19;
+ 
+
+}
+
+.bottom{
+  position: relative;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 110px solid red;
+  float: right;
+  opacity: .21
+ 
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+
+/*#6a5acd*/
+
+/*.all {
+
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.all:hover {
+  -webkit-transform: rotate(900deg);
+          transform: rotate(900deg);
+}
+
+.top {
+
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.t:hover {
+  -webkit-transform: rotate(900deg);
+          transform: rotate(900deg);
+}*/
